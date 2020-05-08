@@ -20,8 +20,6 @@ public class Validations extends PropertyReader {
 	
 	public void VerifyProductDetails(AppiumDriver<MobileElement> driver) throws IOException {
 		
-		
-		
 		List<MobileElement> listNameAndDesc = driver.findElements(By.xpath(PropertyReader.getObject("Element_ProductNameDesc_CheckoutPage")));
 				
 		 int siz1 = listNameAndDesc.size();
